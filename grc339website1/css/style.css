@@ -26,9 +26,32 @@ h1 {
     font-family: 'Poppins', 800, sans-serif;
 }
     
+h2 {
+  font-family: 'Poppins', 600, sans-serif;
+  margin: 1em;
+}
+
 img {
     display: block;
     width: 100%;
+}
+
+.main-footer {
+  background-color: #EDF7F4;
+  font-size: 10px;
+  height: 90px;
+  width: 100%;
+}
+
+.main-footer a {
+  margin-left: 1em;
+  padding: 0em;
+}
+
+.main-footer p {
+  margin-left: 2em;
+  padding-bottom: 2em;
+  padding: 0em;
 }
 
      /* Main Nav */
@@ -292,6 +315,16 @@ img {
     text-align: center;
     margin: 10px;
   }
+
+  .card a {
+    text-decoration: none;
+    color: #498C79;
+  }
+
+  .card footer a{
+    color: #999;
+
+  }
 /* Blog */ 
 
 
@@ -317,4 +350,37 @@ img {
       }
   }
 /* media queries */
-  /* Contact */ 
+
+  /* Gallery */ 
+  @media screen and (min-width: 600px) {
+    .photo-grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+  .photo-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 240px;
+  }
+
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+
+  .card-big {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+  }
+}
+
+/* Medium screens */
+.photo-grid {
+  grid-auto-flow: dense;
+}
