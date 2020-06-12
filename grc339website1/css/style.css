@@ -41,17 +41,7 @@ background-color: #EDF7F4;
 font-size: 10px;
 height: 90px;
 width: 100%;
-}
-
-.main-footer a {
-margin-left: 2em;
-padding: 0em;
-}
-
-.main-footer p {
-margin-left: 2em;
-padding-bottom: 2em;
-padding: 0em;
+padding-left: 1em;
 }
 
 /* Main Nav */
