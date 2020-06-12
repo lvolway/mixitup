@@ -48,6 +48,23 @@ justify-content: left;
 align-items: left;
 }
 
+.main-footer a{
+  color: black;
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.45rem;
+}
+
+.main-footer a:hover {
+  color: #498C79;
+}
+
+.main-footer h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 /* Main Nav */
   .flex-container {
       display: flex;
@@ -60,7 +77,7 @@ align-items: left;
     .logo a {
       color: black;
     }
-    
+
     .logo {
       padding-top: 15px;
       padding-bottom: 15px;
