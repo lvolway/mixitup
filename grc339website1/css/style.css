@@ -48,10 +48,6 @@ justify-content: left;
 align-items: left;
 }
 
-.main-footer p {
-  white-space: nowrap;
-}
-
 /* Main Nav */
   .flex-container {
       display: flex;
@@ -64,12 +60,13 @@ align-items: left;
     .logo a {
       color: black;
     }
+    
     .logo {
       padding-top: 15px;
       padding-bottom: 15px;
       white-space: nowrap;
     }
-    
+
     .logo,
     .main-nav {
       list-style: none;
